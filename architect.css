@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  
+
+    padding: 0;
+    /* margin: 0; */
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+
+}
+p{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1em;
+}
+
+
+
+/* Shared style items */
+.flex-display{
+    display: flex;
+
+}
+.navber, .banner{
+    max-width: 930px;
+    margin: 0 auto;
+
+
+}
+.button{
+    margin-bottom: 30px;
+    padding: 18px 23px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(236, 118, 21);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    
+
+}
+.heading3{
+    font-size: 2.7em;
+    font-weight: 700;
+
+}
+.heading1{
+    font-size: 3em;
+    font-weight: bold;
+
+
+}
+
+
+
+/* The designs of the Header Area */
+
+
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 50px;
+    
+}
+.navber{
+
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+.nav-items{
+    list-style: none;
+
+}
+.nav-list{
+    margin-right: 30px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgba(66, 66, 66, 1);
+    
+
+
+}
+.header1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+
+
+}
+.heading1{
+    margin: 0;
+
+
+
+}
+/* .header2{
+    width: 100%;
+
+
+} */
+.banner-img-width{
+    width: 100%;
+
+}
+
+
+
+/* This area is only intended for responsive design */
+
+/* Responsive for Mobile */
+
+
+@media screen and (max-width: 576px){
+    .flex-display{
+        flex-direction: column;
+    
+    }
+    .navber{
+        justify-content: space-evenly;
+    }
+    /* .header1{
+        width: 100%;
+
+    } */
+    .heading1{
+        font-size: 2em;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+
+    
+}
