@@ -51,6 +51,10 @@ p{
 
 
 }
+.h4-styles{
+
+
+}
 .dark1{
     color: rgba(19, 19, 19, 1);
     font-weight: 500;
@@ -69,6 +73,9 @@ p{
     font-size: 2em;
     font-weight: 700;
 
+}
+.years10-experience{
+    color: white;
 }
 
 
@@ -175,6 +182,79 @@ p{
 
 }
 
+/* Main Area Design */
+
+.main-area2{
+    margin-top: 80px;
+    max-width: 950px;
+    background-image: url(images/architect.png);
+    background-size:50%;
+    background-position: top right;
+    background-repeat: no-repeat;
+
+}
+.main-area2-1{
+
+}
+.area1{
+
+
+}
+#color-black{
+    color: black;
+}
+
+.width1{
+    max-width: 308px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+
+}
+.width2{
+    max-width: 386px;
+    margin-bottom: 15px;
+
+}
+
+.boxes-4{
+
+
+
+}
+.box{
+    max-width: 386px;
+    max-height: 112px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+   
+
+
+}
+.area2{
+
+
+}
+
+#area3{
+    text-align: center;
+    background-color: rgba(255, 144, 14, 1);
+    max-width: 225px;
+    max-height: 112px;
+    background-color: rgba(255, 144, 14, 1);
+    padding: 30px 15px;
+    border-radius: 8px;
+
+}
+#flex-display{
+    align-items: flex-end;
+    gap: 30px;
+
+
+}
+
 
 
 
@@ -200,6 +280,8 @@ p{
     
     }
     .navber{
+        padding: 30px 0;
+        gap: 20px;
         justify-content: space-evenly;
     }
     /* .header1{
@@ -227,11 +309,26 @@ p{
     }
     .team-works{
         margin: auto 20px;
+        text-align: center;
 
     }
     .dark3{
-        font-size: 1.5em;
+        font-size: 1.3em;
 
+    }
+    
+    .width1{
+        margin: 15px auto;
+    }
+    .main-area2{
+        background-image: none;
+        padding: 10px;
+        margin-top: 40px;
+
+    }
+    #flex-display{
+        flex-direction: column;
+        align-items: center;
     }
 
     
