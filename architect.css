@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{  
-
+    margin: 0;
     padding: 0;
     /* margin: 0; */
     font-family: "Work Sans", serif;
@@ -51,7 +51,25 @@ p{
 
 
 }
+.dark1{
+    color: rgba(19, 19, 19, 1);
+    font-weight: 500;
+    font-size: 2em;
 
+
+}
+.dark3{
+    font-size: 2em;
+    font-weight: 500;
+    color: rgba(114, 114, 114, 1);
+
+}
+.orange{
+    color: rgba(255, 144, 14, 1);
+    font-size: 2em;
+    font-weight: 700;
+
+}
 
 
 /* The designs of the Header Area */
@@ -59,7 +77,7 @@ p{
 
 .header{
     background-color: rgba(255, 144, 14, 0.1);
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     
 }
 .navber{
@@ -107,6 +125,68 @@ p{
 
 }
 
+/* Main Area, it's divided into 3 parts*/
+
+  
+/* Min-Area1 */
+
+.main-area{
+    max-width: 950px;
+    margin: 80px auto;
+
+
+}
+.main-area1{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+  
+
+
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.3em;
+ 
+   
+
+
+
+}
+.main-area1-images-size{
+    width: 225px;
+    height: 225px;
+
+
+
+
+}
+.team-works{
+    /* max-width: 400px; */
+
+
+}
+.margin-top-bottom{
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* This area is only intended for responsive design */
@@ -131,6 +211,27 @@ p{
     }
     .banner{
         margin-top: 20px;
+    }
+
+    /* Main Area1 */
+    .team-images{
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+    .main-area1-images-size{
+        width: 100%;
+        height: 100%;
+        
+
+    }
+    .team-works{
+        margin: auto 20px;
+
+    }
+    .dark3{
+        font-size: 1.5em;
+
     }
 
     
