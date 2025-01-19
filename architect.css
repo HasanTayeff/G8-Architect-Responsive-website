@@ -289,7 +289,7 @@ p{
 
 }
 .main-area3-heading{
-    max-width: 380px;
+    max-width: 400px;
     margin-bottom: 50px;
 }
 .area3-box{
@@ -328,6 +328,58 @@ p{
     font-size: 1em;
     color: rgba(114, 114, 114, 1);
     
+}
+
+/* Main Area 4 */
+
+.main-area4{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.sponsor-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* max-width: 400px; */
+
+}
+.sponsors-grid{
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+
+}
+.sponsor{
+    width: 110px;
+
+}
+
+.footer-area{
+    max-width: 950px;
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+
+
+}
+.footer-area:hover{
+    background-color: lightgray;
+
+
+}
+.Tayeff{
+    color: rgb(235, 147, 47);
+    font-weight: bold;
+
+
 }
 
 
@@ -416,5 +468,17 @@ p{
 
     }
 
+    .sponsors-grid{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 60px;
+    }
+    /* #center{
+        margin-left: 100px;
+    } */
+
+    /* Footer Area */
+    .footer-area{
+        margin: 15px;
+    }
     
 }
